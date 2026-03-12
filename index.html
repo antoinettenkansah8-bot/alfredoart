@@ -670,14 +670,12 @@
 </div>
 
 <!-- QR CODE SECTION -->
-<div class="qr-code">
-    <h3>Scan to Visit</h3>
-    <a href="https://your-website-url.com" target="_blank">
-        <img src="images/qr-code.png" alt="QR Code" style="width: 200px; height: 200px;">
-    </a>
+ <a href="https://antoinettenkansah8-bot.github.io/alfredoart/" target="_blank">
+    <img src="images/qr-code.png" alt="QR Code" style="width: 200px; height: 200px; border-radius: 10px;">
+</a>
     <p>Click QR code or scan with phone</p>
 </div>
-               <!-- ===== CONTACT SECTION ===== -->
+     <!-- ===== CONTACT SECTION ===== -->
 <section id="contact" style="background: #f8f9fa; padding: 60px 0;">
     <div class="container">
         <div class="section-title">
@@ -687,45 +685,51 @@
 
         <!-- Contact Info Cards -->
         <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-bottom: 50px;">
+            <!-- Phone -->
             <div style="text-align: center; padding: 30px; background: white; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
                 <i class="fas fa-phone-alt" style="font-size: 2.5rem; color: #f1c40f; margin-bottom: 15px;"></i>
                 <h3>Phone</h3>
-                <p>0597847174</p>
-                <p>0503932784</p>
+                <p style="font-size: 1.1rem;">0597847174</p>
+                <p style="font-size: 1.1rem;">0503932784</p>
             </div>
             
+            <!-- Email -->
             <div style="text-align: center; padding: 30px; background: white; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
                 <i class="fas fa-envelope" style="font-size: 2.5rem; color: #f1c40f; margin-bottom: 15px;"></i>
                 <h3>Email</h3>
-                <p><a href="mailto:alfredantwi1954@icloud.com" style="color: #2c3e50;">alfredantwi1954@icloud.com</a></p>
+                <p style="font-size: 1.1rem;">alfredantwi1954@icloud.com</p>
             </div>
             
+            <!-- Location -->
             <div style="text-align: center; padding: 30px; background: white; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
                 <i class="fas fa-map-marker-alt" style="font-size: 2.5rem; color: #f1c40f; margin-bottom: 15px;"></i>
                 <h3>Location</h3>
-                <p>Atibie Kwahu</p>
-                <p>Eastern Region, Ghana</p>
+                <p style="font-size: 1.1rem;">Atibie Kwahu</p>
+                <p style="font-size: 1.1rem;">Eastern Region, Ghana</p>
             </div>
         </div>
 
-        <!-- Contact Form -->
-        <div style="max-width: 700px; margin: 0 auto;">
-            <div style="background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-                <h3 style="text-align: center; margin-bottom: 30px; color: #2c3e50;">Send Us a Message</h3>
+        <!-- Simple Contact Box - NO FORM, just contact info -->
+        <div style="max-width: 600px; margin: 0 auto;">
+            <div style="background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); text-align: center;">
+                <h3 style="margin-bottom: 30px; color: #2c3e50; font-size: 1.8rem;">Send Us a Message</h3>
                 
-                <form action="https://formspree.io/f/mkoqjnyb" method="POST">
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
-                        <input type="text" name="name" placeholder="Your Name" required style="width: 100%; padding: 15px; border: 1px solid #ddd; border-radius: 10px; font-size: 1rem;">
-                        <input type="email" name="email" placeholder="Your Email" required style="width: 100%; padding: 15px; border: 1px solid #ddd; border-radius: 10px; font-size: 1rem;">
-                    </div>
-                    <textarea name="message" placeholder="Your Message" rows="5" required style="width: 100%; padding: 15px; border: 1px solid #ddd; border-radius: 10px; font-size: 1rem; margin-bottom: 20px;"></textarea>
-                    <button type="submit" style="width: 100%; padding: 15px; background: #f1c40f; color: #2c3e50; border: none; border-radius: 10px; font-size: 1.1rem; font-weight: bold; cursor: pointer;">Send Message</button>
-                </form>
+                <p style="font-size: 1.2rem; margin-bottom: 20px;">📧 <strong>alfredantwi1954@icloud.com</strong></p>
+                <p style="font-size: 1.2rem; margin-bottom: 20px;">📞 <strong>0597847174 / 0503932784</strong></p>
+                <p style="font-size: 1.2rem; margin-bottom: 30px;">📍 <strong>Atibie Kwahu, Eastern Region</strong></p>
+                
+                <a href="mailto:alfredantwi1954@icloud.com?subject=Inquiry%20from%20Website" 
+                   style="display: inline-block; padding: 15px 40px; background: #f1c40f; color: #2c3e50; text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 1.2rem;">
+                    <i class="fas fa-envelope"></i> Click to Email Us
+                </a>
+                
+                <p style="margin-top: 20px; color: #666; font-size: 0.9rem;">
+                    Clicking the button will open your email app
+                </p>
             </div>
         </div>
     </div>
 </section>
-
         <!-- ===== FOOTER ===== -->
         <footer>
             <div class="container">
@@ -790,5 +794,4 @@
         });
     </script>
 </body>
-
 </html>
